@@ -1,2 +1,2 @@
-Samael Duran Rios
-18100166
+n.control: 18100166
+nombre: Samael Durán Ríos
