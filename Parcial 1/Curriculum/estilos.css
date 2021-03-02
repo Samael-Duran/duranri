@@ -1,0 +1,26 @@
+body{
+    background: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 90%;
+    margin: 0px auto;
+    border: 1px;
+}
+header{
+    background: lightgrey;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    line-height: 50px;
+    padding: 20px;
+}
+#content{
+    float: left;
+    width: 100%;
+    background: lightgrey;
+    padding: 20px;
+}
+.article{
+    line-height: 20px;
+}
