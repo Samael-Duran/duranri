@@ -1,0 +1,72 @@
+body, html{
+    height: 100%;
+}
+body{
+    background-image: url("https://www.nebulan.cl/wp-content/uploads/2015/08/login.png");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.form-box{
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+    background: rgba(105, 162, 216, 0.74);
+    text-align: center;
+}
+.form-title{
+    color: rgb(61, 108, 170);
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.form-titleB{
+    color: rgb(61, 108, 170);
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 100px;
+}
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    background: rgb(145, 174, 212);
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid rgb(144, 162, 185);
+    color: whitesmoke;
+    width: 200px;
+    outline: none;
+    border-style: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.form-box input[type="text"]:focus-within,
+.form-box input[type="password"]:focus-within{
+    width: 280px;
+    border-color: rgb(255, 255, 255);
+}
+.form-box button[type="submit"]{
+    border: 0;    
+    background: rgb(145, 174, 212);
+    cursor: pointer;
+    border: 2px solid rgb(144, 162, 185);
+}
+.form-box button[type="submit"]:hover{
+    background: none;
+}
+.form-box input[type="text"]:hover,
+.form-box input[type="password"]:hover
+{
+    background: none;
+}
