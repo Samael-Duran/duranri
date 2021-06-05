@@ -12,7 +12,8 @@
         <form action = "j" class="form-box animate__zoomIn" id="Index">
             <div class = "Container">
             <?php
-            echo "Usuario:" . $_SESSION['Correo'];             
+            session_start();
+                print_r($_SESSION);
             ?>
             <a href="logout.php">Cerrar Sesión</a>
             </div>
