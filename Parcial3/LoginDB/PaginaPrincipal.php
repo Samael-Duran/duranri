@@ -9,15 +9,16 @@
     </head>
     <body>
         <h2 class = "form-title">Bienvenido</h2>
-        <form action = "j" class="form-box animate__zoomIn" id="Index">
+        <form action = "j" class="form-box animate__zoomIn" id="Pagina">
             <div class = "Container">
             <?php
-            session_start();
+                session_start();
                 print_r($_SESSION);
             ?>
             <a href="logout.php">Cerrar Sesión</a>
+            <a href = "LBJsGrid.php">Hacer Consultas</a>
             </div>
         </form>
     </body>
-</html>
+    </html>
 </html>

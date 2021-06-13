@@ -56,3 +56,6 @@ body{
 .form-box button[type="submit"]:hover{
     background: none;
 }
+.jsGrid{
+    padding: 10%;
+}

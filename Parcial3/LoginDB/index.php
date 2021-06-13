@@ -12,7 +12,7 @@
         <h2 class="form-title">Iniciar Sesion</h2>
         <input type="text" id="correo" placeholder="Correo Electronico" name="Correo">
         <input type="password" id="Passw" placeholder="Contrasena" name="Contrasena">
-        <button class="btn btn-primary" type="submit" id="Inresar">Iniciar Sesion</button>
+        <button class="btn btn-primary" type="submit" id="Ingresar">Iniciar Sesion</button>
     </form>
 </body>
 </html>
